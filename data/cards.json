@@ -1,0 +1,28 @@
+{
+  "meta": { "version": 1 },
+  "themes": [
+    {
+      "id": "neon-symbols",
+      "title": "Neon Symbols",
+      "cards": [
+        { "id": "c1", "label": "Star", "icon": "star" },
+        { "id": "c2", "label": "Bolt", "icon": "zap" },
+        { "id": "c3", "label": "Crown", "icon": "crown" },
+        { "id": "c4", "label": "Heart", "icon": "heart" },
+        { "id": "c5", "label": "Moon", "icon": "moon" },
+        { "id": "c6", "label": "Flame", "icon": "flame" },
+        { "id": "c7", "label": "Music", "icon": "music" },
+        { "id": "c8", "label": "Sparkles", "icon": "sparkles" },
+        { "id": "c9", "label": "Diamond", "icon": "gem" },
+        { "id": "c10", "label": "Smile", "icon": "smile" },
+        { "id": "c11", "label": "Ghost", "icon": "ghost" },
+        { "id": "c12", "label": "Rocket", "icon": "rocket" }
+      ]
+    }
+  ],
+  "difficultyPresets": [
+    { "id": "easy", "grid": [4, 3], "pairs": 6 },
+    { "id": "normal", "grid": [4, 4], "pairs": 8 },
+    { "id": "hard", "grid": [6, 4], "pairs": 12 }
+  ]
+}

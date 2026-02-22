@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Find your SKZ vibe",
+    "version": 1
+  },
+  "resultProfiles": [
+    {
+      "id": "chaotic-energy",
+      "title": "Chaotic Energy",
+      "subtitle": "High voltage, fast switches, zero boredom.",
+      "description": "You like intensity, bold choices, and tracks that hit immediately. You're here for adrenaline and hype.",
+      "tags": ["Hype", "Fast", "Bold"],
+      "recommended": [
+        { "label": "Recommended track #1", "url": "https://www.youtube.com/results?search_query=stray+kids+hype+song" },
+        { "label": "Recommended track #2", "url": "https://www.youtube.com/results?search_query=stray+kids+performance+mv" },
+        { "label": "Recommended track #3", "url": "https://www.youtube.com/results?search_query=stray+kids+powerful+chorus" }
+      ]
+    },
+    {
+      "id": "soft-glow",
+      "title": "Soft Glow",
+      "subtitle": "Warm, emotional, and cozy-coded.",
+      "description": "You prefer comfort, feelings, and songs that you can replay when you want to reset your mood.",
+      "tags": ["Warm", "Calm", "Emotional"],
+      "recommended": [
+        { "label": "Recommended track #1", "url": "https://www.youtube.com/results?search_query=stray+kids+soft+song" },
+        { "label": "Recommended track #2", "url": "https://www.youtube.com/results?search_query=stray+kids+ballad" },
+        { "label": "Recommended track #3", "url": "https://www.youtube.com/results?search_query=stray+kids+calm+playlist" }
+      ]
+    },
+    {
+      "id": "cool-confidence",
+      "title": "Cool Confidence",
+      "subtitle": "Clean lines, strong vibe, controlled chaos.",
+      "description": "You like style, swagger, and the feeling of being unbothered and focused.",
+      "tags": ["Cool", "Stylish", "Driven"],
+      "recommended": [
+        { "label": "Recommended track #1", "url": "https://www.youtube.com/results?search_query=stray+kids+cool+song" },
+        { "label": "Recommended track #2", "url": "https://www.youtube.com/results?search_query=stray+kids+iconic+performance" },
+        { "label": "Recommended track #3", "url": "https://www.youtube.com/results?search_query=stray+kids+confidence+lyrics" }
+      ]
+    },
+    {
+      "id": "deep-thinker",
+      "title": "Deep Thinker",
+      "subtitle": "Meaning first. Atmosphere always.",
+      "description": "You enjoy layered mood, lyrics, and tracks you can analyze (or just feel in silence).",
+      "tags": ["Moody", "Reflective", "Focused"],
+      "recommended": [
+        { "label": "Recommended track #1", "url": "https://www.youtube.com/results?search_query=stray+kids+meaningful+song" },
+        { "label": "Recommended track #2", "url": "https://www.youtube.com/results?search_query=stray+kids+lyrics+video" },
+        { "label": "Recommended track #3", "url": "https://www.youtube.com/results?search_query=stray+kids+atmospheric+song" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Your ideal vibe right now?",
+      "answers": [
+        { "id": "a1", "label": "Loud and unstoppable", "weights": { "chaotic-energy": 3, "cool-confidence": 1 } },
+        { "id": "a2", "label": "Cozy and calm", "weights": { "soft-glow": 3, "deep-thinker": 1 } },
+        { "id": "a3", "label": "Sharp and stylish", "weights": { "cool-confidence": 3 } },
+        { "id": "a4", "label": "Quiet and thoughtful", "weights": { "deep-thinker": 3, "soft-glow": 1 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Pick a weekend plan:",
+      "answers": [
+        { "id": "a1", "label": "Concert / party / anything intense", "weights": { "chaotic-energy": 3 } },
+        { "id": "a2", "label": "Coffee + walking + music", "weights": { "soft-glow": 2, "deep-thinker": 2 } },
+        { "id": "a3", "label": "Gym + goals + playlist", "weights": { "cool-confidence": 3 } },
+        { "id": "a4", "label": "Stay in, deep dive into content", "weights": { "deep-thinker": 3 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "When a new song drops, you\u2026",
+      "answers": [
+        { "id": "a1", "label": "Replay the chorus immediately", "weights": { "chaotic-energy": 2, "cool-confidence": 1 } },
+        { "id": "a2", "label": "Focus on lyrics / meaning", "weights": { "deep-thinker": 3 } },
+        { "id": "a3", "label": "Notice the aesthetics & styling", "weights": { "cool-confidence": 2, "soft-glow": 1 } },
+        { "id": "a4", "label": "Check how it makes you feel", "weights": { "soft-glow": 3 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Pick a \u201cmood color\u201d:",
+      "answers": [
+        { "id": "a1", "label": "Neon", "weights": { "chaotic-energy": 2, "cool-confidence": 1 } },
+        { "id": "a2", "label": "Pastel", "weights": { "soft-glow": 3 } },
+        { "id": "a3", "label": "Monochrome", "weights": { "cool-confidence": 3 } },
+        { "id": "a4", "label": "Midnight blue", "weights": { "deep-thinker": 3 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Your default energy level:",
+      "answers": [
+        { "id": "a1", "label": "100% (and rising)", "weights": { "chaotic-energy": 3 } },
+        { "id": "a2", "label": "Steady and chill", "weights": { "soft-glow": 2, "cool-confidence": 1 } },
+        { "id": "a3", "label": "Focused and goal-driven", "weights": { "cool-confidence": 3 } },
+        { "id": "a4", "label": "Depends on the day", "weights": { "deep-thinker": 2, "soft-glow": 1 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Choose a quote type you\u2019d put on a wallpaper:",
+      "answers": [
+        { "id": "a1", "label": "Bold: \u201cLet\u2019s go.\u201d", "weights": { "chaotic-energy": 2, "cool-confidence": 1 } },
+        { "id": "a2", "label": "Warm: \u201cYou\u2019re doing fine.\u201d", "weights": { "soft-glow": 3 } },
+        { "id": "a3", "label": "Sharp: \u201cStay focused.\u201d", "weights": { "cool-confidence": 3 } },
+        { "id": "a4", "label": "Deep: \u201cKeep moving.\u201d", "weights": { "deep-thinker": 3 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "In a group project you\u2019re usually\u2026",
+      "answers": [
+        { "id": "a1", "label": "The one who starts the chaos (in a good way)", "weights": { "chaotic-energy": 3 } },
+        { "id": "a2", "label": "The emotional support teammate", "weights": { "soft-glow": 3 } },
+        { "id": "a3", "label": "The one who keeps it clean & efficient", "weights": { "cool-confidence": 3 } },
+        { "id": "a4", "label": "The strategist / thinker", "weights": { "deep-thinker": 3 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Pick a vibe: stage, studio, or late-night?",
+      "answers": [
+        { "id": "a1", "label": "Stage energy", "weights": { "chaotic-energy": 3 } },
+        { "id": "a2", "label": "Studio perfection", "weights": { "cool-confidence": 3 } },
+        { "id": "a3", "label": "Late-night feelings", "weights": { "deep-thinker": 2, "soft-glow": 1 } },
+        { "id": "a4", "label": "Soft daylight vibe", "weights": { "soft-glow": 3 } }
+      ]
+    }
+  ],
+  "tieBreakers": {
+    "order": ["cool-confidence", "soft-glow", "chaotic-energy", "deep-thinker"]
+  }
+}

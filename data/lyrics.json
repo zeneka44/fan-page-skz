@@ -1,0 +1,69 @@
+{
+  "meta": { "version": 1, "notes": "Use only short fragments or blanks; avoid full lyrics." },
+  "rounds": [
+    {
+      "id": "r1",
+      "mode": "choose_next",
+      "prompt": "We go ____",
+      "options": ["hard", "home", "slow", "quiet"],
+      "answerIndex": 0,
+      "hint": "Hype vibe"
+    },
+    {
+      "id": "r2",
+      "mode": "fill_blank",
+      "prompt": "Stay ____",
+      "options": ["strong", "sleepy", "silent", "simple"],
+      "answerIndex": 0,
+      "hint": "Motivation vibe"
+    },
+    {
+      "id": "r3",
+      "mode": "choose_next",
+      "prompt": "I'm not ____",
+      "options": ["done", "okay", "there", "ready"],
+      "answerIndex": 0,
+      "hint": "Determination vibe"
+    },
+    {
+      "id": "r4",
+      "mode": "fill_blank",
+      "prompt": "Make it ____",
+      "options": ["loud", "late", "small", "soft"],
+      "answerIndex": 0,
+      "hint": "Performance vibe"
+    },
+    {
+      "id": "r5",
+      "mode": "choose_next",
+      "prompt": "Hold on, ____",
+      "options": ["breathe", "run", "hide", "forget"],
+      "answerIndex": 0,
+      "hint": "Comfort vibe"
+    },
+    {
+      "id": "r6",
+      "mode": "fill_blank",
+      "prompt": "One more ____",
+      "options": ["time", "coffee", "idea", "chance"],
+      "answerIndex": 0,
+      "hint": "Streak vibe"
+    },
+    {
+      "id": "r7",
+      "mode": "choose_next",
+      "prompt": "Feel the ____",
+      "options": ["beat", "rain", "heat", "fear"],
+      "answerIndex": 0,
+      "hint": "Rhythm vibe"
+    },
+    {
+      "id": "r8",
+      "mode": "fill_blank",
+      "prompt": "Let's ____ it",
+      "options": ["do", "paint", "break", "fix"],
+      "answerIndex": 0,
+      "hint": "Action vibe"
+    }
+  ]
+}

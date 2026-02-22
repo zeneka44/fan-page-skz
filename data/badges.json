@@ -1,0 +1,54 @@
+{
+  "meta": { "version": 1 },
+  "badges": [
+    {
+      "id": "first-play",
+      "title": "First Play",
+      "description": "Play any mode once.",
+      "icon": "sparkles"
+    },
+    {
+      "id": "lyric-5-streak",
+      "title": "Lyric Streak x5",
+      "description": "Get 5 correct lyric guesses in a row.",
+      "icon": "zap"
+    },
+    {
+      "id": "memory-under-60",
+      "title": "Fast Memory",
+      "description": "Finish Memory mode in under 60 seconds.",
+      "icon": "timer"
+    },
+    {
+      "id": "daily-3",
+      "title": "Daily x3",
+      "description": "Complete Daily Challenge 3 days in a row.",
+      "icon": "calendar"
+    },
+    {
+      "id": "daily-7",
+      "title": "Daily x7",
+      "description": "Complete Daily Challenge 7 days in a row.",
+      "icon": "calendar-check"
+    },
+    {
+      "id": "daily-14",
+      "title": "Daily x14",
+      "description": "Complete Daily Challenge 14 days in a row.",
+      "icon": "calendar-heart"
+    },
+    {
+      "id": "explorer",
+      "title": "Explorer",
+      "description": "Visit Quiz, Lyric, Memory, Daily, Collection.",
+      "icon": "compass"
+    }
+  ],
+  "xpRules": {
+    "quizComplete": 50,
+    "lyricCorrect": 10,
+    "memoryComplete": 30,
+    "dailyComplete": 70,
+    "levelEveryXp": 200
+  }
+}
